@@ -2,7 +2,8 @@
 #include <iostream>
  
 // getValueFromUser will read a value in from the user, and return it to the caller
-int getValueFromUser()
+//"getvaluefromuser" renamed to "gvU"
+int gvU()
 {
     std::cout << "Enter a number: ";
     int a;
@@ -12,8 +13,8 @@ int getValueFromUser()
  
 int main()
 {
-    int x = getValueFromUser(); // first call to getValueFromUser
-    int y = getValueFromUser(); // second call to getValueFromUser
+    int x = gvU(); // first call to gvU
+    int y = gvU(); // second call to getValueFromUser
  
     std::cout << x << " + " << y << " = " << x + y << std::endl;
  
@@ -23,3 +24,4 @@ int main()
 //Notes
 /* Main utilizes "getValueFromUser" which will determine the other two variables (x and y).
 It then echoes out a linear algebreic expression telling the sum of the two inputs*/
+//Functions can be reused and be indivdualised  directed by a variable
