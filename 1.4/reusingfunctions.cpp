@@ -14,7 +14,7 @@ int gvU()
 int main()
 {
     int x = gvU(); // first call to gvU
-    int y = gvU(); // second call to getValueFromUser
+    int y = gvU(); // second call to gvU
  
     std::cout << x << " + " << y << " = " << x + y << std::endl;
  
@@ -22,6 +22,6 @@ int main()
 }
 
 //Notes
-/* Main utilizes "getValueFromUser" which will determine the other two variables (x and y).
+/* Main utilizes "getValueFromUser" (gvU) which will determine the other two variables (x and y).
 It then echoes out a linear algebreic expression telling the sum of the two inputs*/
 //Functions can be reused and be indivdualised  directed by a variable
